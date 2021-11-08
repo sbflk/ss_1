@@ -21,8 +21,7 @@ int main()
         max = temp;
     }
     
-    printf("\n");
-    printf("The Armstrong numbers are: ");
+    printf("The Armstrong numbers are:");
     for (int i = min; i < max; i++)
     {
         if (isArmstrong(i) == 1)
@@ -65,4 +64,6 @@ int main()
         }
         
     }
+    printf("\n");
+    printf("\n");
 }

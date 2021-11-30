@@ -13,6 +13,7 @@ int main()
         if(cmd == 'A')
         {
             getMatrix();
+            printf("\n");
         }
         if(cmd == 'B')
         {
@@ -20,6 +21,7 @@ int main()
             scanf("%d",&i);
             scanf("%d",&j);
             pathExists(i,j);
+            printf("\n");
         }
         if(cmd == 'C')
         {
@@ -27,6 +29,7 @@ int main()
             scanf("%d",&i);
             scanf("%d",&j);
             printf("%d",shortestPath(i,j));
+            printf("\n");
         }
         scanf("%s",&cmd);
     }

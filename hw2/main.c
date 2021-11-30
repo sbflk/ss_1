@@ -13,7 +13,6 @@ int main()
         if(cmd == 'A')
         {
             getMatrix();
-            printf("\n");
         }
         if(cmd == 'B')
         {

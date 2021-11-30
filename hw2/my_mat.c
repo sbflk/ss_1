@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "my_mat.h"
 
-#define s 3
+#define s 10
 int did_algo = 0;
 int m[s][s];
 
